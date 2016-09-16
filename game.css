@@ -1,0 +1,133 @@
+*{
+	margin:0px ;padding:0px;
+}
+h1{
+	padding left:25px;
+     padding-top:0px;
+	 margin-top:-60px;
+text-align:center;
+font: bold 50px century gothic;
+padding-bottom:20px;
+}
+header{
+	height:100px;
+	width:100%;
+	
+}
+img{
+	height:60px;
+	padding-left:180px;
+	width:100px;
+	padding-top:25px;
+}
+#smallhead{
+	padding-top:25px;
+	padding-right:80px;
+	float:right;
+	font: bold 20px century gothic;
+		color:white;
+}
+#smallhead:hover{
+	color:red;
+	text-decoration:underline;
+}
+#smallhead1{
+	padding-top:25px;
+	padding-right:82px;
+	float:right;
+	font: bold 20px century gothic;
+	color:white;
+}
+#smallhead1:hover{
+	color:red;
+	text-decoration:underline;
+}
+header{
+	background-color:#008080;
+	
+}
+
+
+
+nav{
+	 margin:0px; padding:0px;
+	 width:100%;
+	 background:#bdc3c7;
+	
+	
+	 
+ }
+ ul li a{
+	 text-decoration:none;
+	 display:block;
+ }
+  nav ul li{
+	 float:left;
+	 padding:5px;
+	 background:#b0e0e6;
+	 width:143px;
+	 line-height:30px;
+	 font-size:17px;
+	 color:#191970;
+	  
+	  margin:0px;
+ }
+ ul li:hover{
+	 font-size:20px;
+ }
+ ul li ul li{
+	 display:none;
+ }
+	 
+ ul li:hover ul li{
+	 display:block;
+ }
+
+#wrapper{
+	padding:0px;
+}
+#search{
+	padding:5px;
+	border:1px solid black;
+	width:159px;
+	
+}
+#submit{
+	border:1px solid black;
+	width:50px;
+	height:25px;
+	cursor:pointer;
+}
+#submit:hover{
+
+	background-color:blue;
+	color:white;
+	
+	
+	}
+	
+#section2{
+  width:33.34%;
+  height:470px;
+  float:left;
+  background-color:green;
+}
+#section1{
+  width:33.33%;
+  height:470px;
+  float:left;
+  background-color:blue;
+}
+#section3{
+  width:33.33%;
+  height:470px;
+  float:left;
+  background-color:purple;
+}
+	p{
+		position:absolute;
+		top:150px;
+	}
+nav ul li:hover > ul {
+    position: absolute;
+}	
